@@ -1,0 +1,36 @@
+﻿String : it is collection of the character inside or the single or double qoute.
+1- we can use double qoute inside a single goute but can not use inside a doble  qoute inside a double goute and similar for sigle goute also
+2- but we can signle or double qoute inside a single or double qoute but we need to use backslash beofre the single or double qoute inside the signle or double qoute
+
+example: print("hello ,india /"he is from india/"") this will give correct output
+
+3- \n will give new line
+4- \t will give tab
+
+escape Swquence as normal text:---
+#output : Line A \n Line B
+print("Line A \\n Line B")
+#output: \" \'
+
+print("\\\" \\\'")
+
+input function::
+input function always take input from the user a string
+name = input("type your name")
+print("helllo" + name)
+
+--------------------------------------------
+more about variable:-
+ name, age = "Gulam" , "24"
+ print(" Hello " + name + "your age is " + age)
+
+-------------------------------------two inputs at a time
+
+name , age = input("enter your name and age ").split()
+
+split()----split is string method
+
+# String Indexing 
+ 
+
+
